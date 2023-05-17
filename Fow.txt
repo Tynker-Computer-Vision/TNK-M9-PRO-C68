@@ -1,0 +1,30 @@
+TA1 : 
+- Define variable to store tracker details
+- Declare flag variable called detected with initial value False
+- Detect the ball only when the falg variable is False
+- Initialise the tracker
+- Below the tracker initilisation make it true
+- After successful initialisation update the tracker
+- And draw the sqare box around it
+- To draw sqauare box write function drawBox
+
+SA 1 : Same As TA 1 
+
+
+TA2 : 
+- Now define  and call function goalTrack ( FYI @runali : To track the check the goal is happened or not)
+- Get the center points of bounding box and append values insid the list xCords and yCords respectively
+- Inside the goalTrack to draw the Trajectory ot trail 
+
+SA2 :  Same as TA2 
+
+
+TA3 : 
+- Declare the two variables goalX and goalY and set the positions of the goal 
+- Calculate the distance between goal and ball 
+- if distance is less than 20 pixel points then show the message goal
+- If tracker lost the ball then write else statement to show the maessage lost
+
+SA3 :  Same as TA3 
+
+
